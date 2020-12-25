@@ -1,0 +1,21 @@
+:root{
+    --chunkfiveregular: 'chunkfiveregular';
+    --sofiaprobold: 'sofia_probold';
+    --sofiaprolight: 'sofia_prolight';
+    --materialDesign: "Material Design Icons";
+    --blackColor: #000;
+    /* --bodyColor: #21212b; */
+    --blueColor: #0044ff;
+    --whiteColor: #fff;
+    --mintColor: #00f7d4;
+    --mintUltra: #f5fefa;
+    --mintUltra1: #d4fbff;
+    --blackColor25: rgba(216, 216, 216, 0.25);
+    --blackColor65: rgba(0, 0, 0, 0.65);
+    --inputBg: #f3f7fb;
+    --error: #BC1B1B;
+    --success: #508B41;
+    --blueLight: #f7f9fd;
+    --blackColor2: rgba(0, 0, 0, 0.02)
+    
+}
