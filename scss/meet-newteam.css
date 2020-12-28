@@ -1,0 +1,110 @@
+.port-start-sec .welcome-inner .welcome-inner-left{
+                                                        width: 100%;
+                                                        padding: 0px;
+}
+
+.port-start-sec .welcome-inner .welcome-inner-left .welcomeHeading{
+                                                           
+                                                    text-align: center;
+}
+
+.port-start-sec .welcome-inner .welcome-inner-left .welcomeTxt{
+                                                           
+  text-align: center;
+}
+
+
+
+.welcomeHeading-new{
+    font-size: 32px;
+    font-family: var(--chunkfiveregular);
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: var(--blackColor);
+    letter-spacing: 1.45px;
+  }
+  
+  .heading1{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: var(--blackColor);
+    font-family: var(--sofiaprobold);
+  }
+  
+  .welcomepara{
+    font-size: 16px;
+    font-family: var(--sofiaprolight);
+    line-height: 1.63;
+    color: var(--blackColor); 
+    margin-top: 25px; 
+  }
+  
+  .sec-be-you{
+                 display: flex;
+                 align-items: center;
+                 margin-top: 80px;
+  }
+  
+  .sec-be-you-plus{
+                        width: 40%;
+                        border-left: 8px solid var(--blueColor);
+                        margin-left: 112px;
+                    
+  }
+  
+  .img-sec-be-you-plus{
+                         width: 60%;
+  }
+  
+  .img-be-you-plus{
+                      width: 100%;
+  }
+  
+  .btn-visit{
+                   font-size: 16px;
+                   font-weight: bold;
+                   line-height: 1.63;
+                   border-radius: 21px;
+                   color: var(--whiteColor);
+                   background-color: var(--blueColor);
+                   width: 141px;
+                   height: 32px;
+                   margin-top: 19px;
+  }
+  
+  .inner-sec-be-you-plus{
+                             padding: 10px 39px 20px 24px;
+  }
+
+  .sec-visit-website > .sec-be-you:first-child{
+    padding-top: 59px;
+    margin-top: 0px;
+}
+  
+  .sec-be-you:last-child {
+    padding-bottom: 80px;
+  }
+
+  
+  .call-btn{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.63;
+    color: var(--whiteColor);
+    width: 145px;
+    height: 48px;
+    background-color: var(--blueColor);
+    border-radius: 21px;
+    color: var(--whiteColor);
+      
+  }
+  
+  .launch-soon{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+    color: var(--lightgrey);
+  }
+
+  

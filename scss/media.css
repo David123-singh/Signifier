@@ -1,0 +1,577 @@
+@media only screen and (max-width: 1300px) {
+  .mainContainer {
+    padding: 0px 50px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left .welcomeHeading {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left .welcomeTxt {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsContent .talkToUsHeading {
+    font-size: 36px;
+  }
+  .form-text {
+    line-height: normal;
+  }
+  .customerFeedbackWrapper .customerFeedbackInner .customerFeedbacMsg {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .footerWrapper .footerTop .footerTopInner {
+    flex-direction: column;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerWelcome {
+    padding-right: 0px;
+    padding-bottom: 50px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper {
+    width: 100%;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec {
+    margin-left: 0px;
+    width: calc(33.33% - 30px);
+    padding-left: 45px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec:first-child {
+    padding-left: 0px;
+  }
+  .stop-solution-sec .Heading-div {
+    font-size: 28px;
+  }
+  .stop-solution-sec .stop-col {
+    padding-left: 35px;
+  }
+  .service-new-sec {
+    padding: 48px 0;
+  }
+  .service-new-sec .service-heading h2 {
+    font-size: 28px;
+    line-height: 1.56;
+  }
+  .service-new-sec .service-heading p {
+    font-size: 18px;
+  }
+  .service-new-sec .service-col {
+    padding: 0px;
+    padding-left: 10px;
+  }
+  .service-new-sec .service-col:first-child {
+    padding-left: 0px;
+  }
+  .solutions-services-sec {
+    padding: 48px 0px;
+  }
+  .solutions-services-sec .solution-main-heading {
+    line-height: 1.56;
+    font-size: 28px;
+    margin-bottom: 42px;
+  }
+  .solutions-services-sec .solutions-col-sec {
+    width: calc(25% - 25px);
+    margin-left: 30px;
+  }
+  .solutions-services-sec .solutions-col-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .solutions-services-sec .solutions-link {
+    font-size: 18px;
+  }
+  .start-here {
+    padding-bottom: 48px;
+  }
+  .start-here .startMain-heading {
+    font-size: 28px;
+    line-height: 1.20;
+  }
+  .start-here .start-left-txt {
+    font-size: 18px;
+  }
+  .start-here .start-col {
+    width: calc(50% - 32px);
+    padding-left: 64px;
+  }
+  .start-here .start-heading {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .start-here .start-txt-contant {
+    line-height: 1.5;
+  }
+  .tech-casestudies-sec .heading {
+    font-size: 28px;
+    line-height: 48px;
+  }
+  .tech-casestudies-sec .contentTxt {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .our-company-sec .company-icon {
+    max-width: 48px;
+  }
+  .our-company-sec .company-Heading {
+    font-size: 20px;
+  }
+  .our-company-sec .company-txt {
+    font-size: 20px;
+  }
+  .our-company-sec .read-more-btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainContainer {
+    padding: 0px 30px;
+  }
+  .header .navSection .logo {
+    z-index: 1;
+  }
+  .header .backCall {
+    display: none;
+  }
+  .header .mobile-backCall {
+    display: list-item;
+  }
+  .header .mobile-backCall .backCall {
+    display: flex;
+  }
+  .header .navSection {
+    justify-content: space-between;
+  }
+  .header .navWrapper .navMenu {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    padding-top: 100px;
+    background: #fff;
+    width: 30%;
+    align-items: baseline;
+    padding-left: 50px;
+    left: -100%;
+    position: absolute;
+    transition: all 0.8s ease;
+  }
+  .header .navWrapper.nav-open {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #ffffff87;
+  }
+  .header .navWrapper.nav-open .navMenu {
+    display: flex;
+    left: 0;
+    transition: all 0.8s ease;
+  }
+  .header .navWrapper.nav-open .navMenu .navItem {
+    padding: 0px;
+    padding-bottom: 16px;
+  }
+  .header .mobile-close-btn {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    position: relative;
+    z-index: 999;
+    width: 30px;
+  }
+  .header .mobile-close-btn .mobile-btn-line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+    border-radius: 1px;
+    display: block;
+    margin: 0 0 7px;
+    position: relative;
+    transition: all .3s ease-out;
+  }
+  .header .mobile-close-btn .mobile-btn-line:last-child {
+    margin: 0px;
+  }
+  .header .mobile-close-btn.open-menu .mobile-btn-line:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 3px;
+    left: 0;
+  }
+  .header .mobile-close-btn.open-menu .mobile-btn-line:nth-child(2) {
+    display: none;
+  }
+  .header .mobile-close-btn.open-menu .mobile-btn-line:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -6px;
+  }
+  .collaboratingWrapper .locationCollaboratingWrapper {
+    flex-wrap: wrap;
+  }
+  .collaboratingWrapper .locationCollaboratingWrapper .locationCollaboratingList {
+    width: calc(50% - 70px);
+    margin-bottom: 20px;
+  }
+  .collaboratingWrapper .locationCollaboratingWrapper .locationCollaboratingList:nth-child(2n + 2) {
+    margin-right: 0px;
+  }
+  .customerFeedbackWrapper .customerFeedbackInner .customerFeedbacMsg {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .talkAboutProject .talkAboutProjectSec {
+    flex-direction: column;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule {
+    margin-bottom: 50px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress {
+    margin-bottom: 0px;
+    position: relative;
+    width: calc(50% - 25px);
+    margin-bottom: 30px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress:nth-child(2n + 2) {
+    margin-left: 25px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress .locationImgSec {
+    padding-right: 0px;
+    max-width: unset;
+    position: absolute;
+    bottom: 0px;
+    max-width: 240px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress .locationRightSec {
+    border-left: none;
+    padding-left: 0px;
+    padding-bottom: 130px;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule .talkHeading {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 28px;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule .blueBtn {
+    width: fit-content;
+  }
+  .headerBtn, .blueBtn {
+    border-radius: 28px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec {
+    width: calc(33.33% - 20px);
+    padding-left: 30px;
+  }
+  .stop-solution-sec {
+    padding: 48px 0px;
+  }
+  .stop-solution-sec .Heading-div {
+    font-size: 28px;
+  }
+  .stop-solution-sec .aboutTechInner {
+    flex-wrap: wrap;
+  }
+  .stop-solution-sec .stop-col {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .stop-solution-sec .stop-col:last-child {
+    padding-bottom: 0px;
+  }
+  .stop-solution-sec .stop-col:first-child {
+    width: 100%;
+  }
+  .service-new-sec {
+    padding: 48px 0;
+  }
+  .service-new-sec .read-more-btn {
+    font-size: 18px;
+  }
+  .service-new-sec .service-main-outer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .service-new-sec .service-col {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    z-index: 1;
+  }
+  .service-new-sec .service-col:nth-child(2n + 2) {
+    margin-left: 20px;
+  }
+  .service-new-sec .service-col:first-child {
+    padding-left: 0px;
+  }
+  .solutions-services-sec {
+    padding: 48px 0px;
+  }
+  .solutions-services-sec .solution-main-heading {
+    line-height: 1.56;
+    font-size: 28px;
+    margin-bottom: 42px;
+  }
+  .solutions-services-sec .solutions-col-sec {
+    width: calc(25% - 25px);
+    margin-left: 30px;
+  }
+  .solutions-services-sec .solutions-col-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .solutions-services-sec .solutions-link {
+    font-size: 18px;
+  }
+  .start-here {
+    padding-bottom: 48px;
+  }
+  .start-here .startMain-heading {
+    font-size: 28px;
+    line-height: 1.20;
+  }
+  .start-here .start-left-txt {
+    font-size: 18px;
+  }
+  .start-here .start-col {
+    width: calc(50% - 32px);
+    padding-left: 64px;
+  }
+  .start-here .start-heading {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .start-here .start-txt-contant {
+    line-height: 1.5;
+  }
+  .tech-casestudies-sec .heading {
+    font-size: 28px;
+    line-height: 48px;
+  }
+  .tech-casestudies-sec .contentTxt {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .our-company-sec .company-icon {
+    max-width: 48px;
+  }
+  .our-company-sec .company-Heading {
+    font-size: 20px;
+  }
+  .our-company-sec .company-txt {
+    font-size: 18px;
+  }
+  .our-company-sec .read-more-btn {
+    font-size: 18px;
+  }
+  .our-company-sec .company-col {
+    width: calc(50% - 52px);
+    padding-left: 53px;
+    margin-left: 51px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header .navWrapper .navMenu {
+    width: 100%;
+    left: -150pc;
+    padding-left: 30px;
+  }
+  .welcomeWrapper .welcome-inner {
+    flex-direction: column;
+    height: unset;
+    padding: 100px 0 55px 0;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left .welcomeHeading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left .welcomeTxt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .talkToUsWrapper .talkToUsInner {
+    flex-direction: column;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsContent {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsContent .talkToUsHeading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsContent .talkToUsList li {
+    margin-bottom: 16px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsForm {
+    width: 100%;
+  }
+  .partTeamWrapper {
+    padding: 48px 0;
+  }
+  .partTeamWrapper .partTeamHeader {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .partTeamWrapper .partTeamTxt {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .partTeamWrapper .partTeamAction .infoBtn {
+    font-size: 16px;
+    height: 46px;
+  }
+  .partTeamWrapper .partTeamAction .infoBtn .icon {
+    width: 28px;
+    height: 28px;
+  }
+  .collaboratingWrapper {
+    padding: 48px 0;
+  }
+  .collaboratingWrapper .collaboratingHeader {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .collaboratingWrapper .collaboratingTxt {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+  .collaboratingWrapper .locationCollaboratingWrapper .locationCollaboratingList {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .collaboratingWrapper .locationCollaboratingWrapper .locationCollaboratingList .locationHeading {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .customerFeedbackWrapper {
+    padding: 48px 0;
+  }
+  .customerFeedbackWrapper .customerFeedbackInner .customerFeedbacMsg {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .buidProductWrapper {
+    padding: 48px 0 48px;
+  }
+  .buidProductWrapper .heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .talkAboutProject {
+    padding: 48px 0px;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule {
+    margin-bottom: 70px;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule .talkHeading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress:nth-child(2n + 2) {
+    margin-left: 0px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress .locationRightSec .locationCountry {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper {
+    flex-wrap: wrap;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec {
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec:last-child {
+    padding-bottom: 0px;
+  }
+  .footerWrapper .footerTop .footerTopInner .footerLinkWrapper .footerLinkSec .footerHeading {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .footerWrapper .footerCopyright {
+    padding: 15px 0;
+  }
+  .footerWrapper .footerCopyright .mainContainer {
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .footerWrapper .footerCopyright .mainContainer .socialLink {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .mainContainer {
+    padding: 0px 20px;
+  }
+  .welcomeWrapper .welcome-inner .welcome-inner-left .welcomeHeading {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsContent .talkToUsHeading {
+    font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 36px;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsForm .talkToUsFormInner .formRow {
+    flex-wrap: wrap;
+  }
+  .talkToUsWrapper .talkToUsInner .talkToUsForm .talkToUsFormInner .formRow .formBox {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .partTeamWrapper .partTeamAction {
+    flex-direction: column;
+  }
+  .partTeamWrapper .partTeamAction .infoBtn {
+    margin: 0px 0px 10px;
+  }
+  .partTeamWrapper .partTeamAction .infoBtn:last-child {
+    margin: 0px 0px 0px;
+  }
+  .talkAboutProject .talkAboutProjectSec .talkAboutProjectSchedule .talkHeading {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .talkAboutProject .talkAboutProjectSec .locationDetails .locationAddress .locationRightSec .locationCountry {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}

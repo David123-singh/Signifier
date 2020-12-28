@@ -1,0 +1,710 @@
+@media only screen and (max-width: 1300px) {
+            .mainContainer{
+                padding:0px 50px;
+            }
+            .welcomeWrapper {
+                .welcome-inner {
+                    .welcome-inner-left {
+                        .welcomeHeading{
+                            font-size: 36px;
+                            line-height: 44px;
+                        }
+                        .welcomeTxt{
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+            .talkToUsWrapper {
+                .talkToUsInner {
+                    .talkToUsContent {
+                        .talkToUsHeading{
+                            font-size: 36px;
+                        }
+                    }
+                }
+            }
+            .form-text{
+                line-height:normal;
+            }
+            .customerFeedbackWrapper{
+                .customerFeedbackInner{
+                    .customerFeedbacMsg{
+                        font-size: 28px;
+                        line-height: 38px;
+                    }
+                }
+            }
+            .footerWrapper {
+                .footerTop {
+                    .footerTopInner {
+                        flex-direction: column;
+                        .footerWelcome{
+                            padding-right: 0px;
+                            padding-bottom: 50px;
+                        }
+                        .footerLinkWrapper{
+                            width: 100%;
+                            .footerLinkSec{
+                                margin-left: 0px;
+                                width: calc(33.33% - 30px);
+                                padding-left: 45px;
+                                &:first-child{
+                                    padding-left: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            // service page
+            .stop-solution-sec {
+                .Heading-div{
+                    font-size: 28px;
+                }
+                .stop-col{
+                    padding-left: 35px;
+                }
+            }
+            .service-new-sec {
+                padding: 48px 0;
+                .service-heading {
+                    h2{
+                        font-size: 28px;
+                        line-height: 1.56;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .service-col{
+                    padding: 0px;
+                    padding-left: 10px;
+                    &:first-child{
+                        padding-left: 0px;
+                    }
+                }
+            }
+            .solutions-services-sec{
+                padding: 48px 0px;
+                .solution-main-heading{
+                    line-height: 1.56;
+                    font-size:28px;
+                    margin-bottom: 42px;
+                }
+                .solutions-col-sec{
+                    width: calc(25% - 25px);
+                    margin-left: 30px;
+                }
+                .solutions-col-heading{
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                .solutions-link{
+                    font-size:18px;
+                }
+            }
+            .start-here{
+                padding-bottom: 48px;
+                .startMain-heading{
+                    font-size: 28px;
+                    line-height: 1.20;
+                }
+                .start-left-txt {
+                    font-size: 18px;
+                }
+                .start-col{
+                    width: calc(50% - 32px);
+                    padding-left: 64px;
+                }
+                .start-heading{
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+                .start-txt-contant{
+                    line-height: 1.5;
+                }
+            }
+            .tech-casestudies-sec{
+                .heading{
+                    font-size: 28px;
+                    line-height: 48px;
+                }
+                .contentTxt {
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+            }
+            .our-company-sec {
+                .company-icon{
+                    max-width: 48px;
+                }
+                .company-Heading{
+                    font-size: 20px;
+                }
+                .company-txt{
+                    font-size: 20px;
+                }
+                .read-more-btn{
+                    font-size: 20px;
+                }
+            }
+            
+            
+}
+@media only screen and (max-width: 1024px) {
+    .mainContainer{
+        padding:0px 30px;
+    }
+
+    .header {
+        .navSection {
+            .logo{
+                z-index: 1;
+            }
+        }
+        .backCall{
+            display:none;
+        }
+        .mobile-backCall{
+            display: list-item;
+            .backCall{
+                display: flex;
+            }
+        }
+        .navSection{
+            justify-content: space-between;
+        }
+        .navWrapper {
+            // transition: all .8s ease;
+            // left: -100%;
+            .navMenu{
+                    display: flex;
+                    flex-direction: column;
+                    height: calc(100vh - 72px);
+                    padding-top: 100px;
+                    background: #fff;
+                    width: 30%;
+                    align-items: baseline;
+                    padding-left: 50px;
+                    left: -100%;
+                    position: absolute;
+                    transition: all 0.8s ease;
+            }
+            &.nav-open{
+                display:block;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                left: 0px;
+                top: 0px;
+                background: #ffffff87;
+                
+                .navMenu{
+                    display: flex;
+                    left: 0;
+                    transition: all 0.8s ease;
+                    .navItem{
+                        padding: 0px;
+                        padding-bottom: 16px;
+                    }
+                }
+            }
+        }
+        .mobile-close-btn {
+            cursor: pointer;
+            background: none;
+            outline: none;
+            border: none;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            position: relative;
+            z-index: 999;
+            width: 30px;
+            .mobile-btn-line {
+                width: 100%;
+                height: 2px;
+                background: #000;
+                border-radius: 1px;
+                display: block;
+                margin: 0 0 7px;
+                position: relative;
+                transition: all .3s ease-out;
+                &:last-child{
+                    margin: 0px;
+                }
+            }
+            &.open-menu{
+                .mobile-btn-line {
+                    &:nth-child(1){
+                        transform: rotate(45deg);
+                        position: relative;
+                        top: 3px;
+                        left: 0;
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3){
+                        transform: rotate(-45deg);
+                        top: -6px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .collaboratingWrapper{
+        .locationCollaboratingWrapper{
+            flex-wrap: wrap;
+            .locationCollaboratingList{
+                width: calc(50% - 70px);
+                margin-bottom: 20px;
+                &:nth-child(2n + 2){
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .customerFeedbackWrapper {
+        .customerFeedbackInner {
+            .customerFeedbacMsg{
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+    }
+
+    .talkAboutProject {
+        .talkAboutProjectSec{
+            flex-direction: column;
+            .talkAboutProjectSchedule{
+                margin-bottom: 50px;
+            }
+            .locationDetails {
+                max-width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .locationAddress{
+                    margin-bottom: 0px;
+                    position: relative;
+                    width: calc(50% - 25px);
+                    margin-bottom: 30px;
+                    &:nth-child(2n + 2){
+                        margin-left: 25px;
+                    }
+                    .locationImgSec{
+                        padding-right: 0px;
+                        max-width: unset;
+                        position: absolute;
+                        bottom: 0px;
+                        max-width: 240px;
+                        
+                    }
+                    .locationRightSec{
+                        border-left: none;
+                        padding-left: 0px;
+                        padding-bottom: 130px;
+                    }
+                }
+            }
+            .talkAboutProjectSchedule{
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                .talkHeading {
+                    font-size: 36px;
+                    line-height: 44px;
+                    margin-bottom: 28px;
+                }
+                .blueBtn {
+                    width: fit-content;
+                }
+            }
+        }
+    }
+    .headerBtn, .blueBtn{border-radius:28px;}
+
+    .footerWrapper {
+        .footerTop {
+            .footerTopInner {
+                .footerLinkWrapper {
+                    .footerLinkSec{
+                        width: calc(33.33% - 20px);
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    // service page
+
+
+    .stop-solution-sec {
+        padding: 48px 0px;
+        .Heading-div{
+            font-size: 28px;
+        }
+        .aboutTechInner{
+            flex-wrap: wrap;
+        }
+        .stop-col{
+            width: 100%;
+            padding-bottom: 20px;
+            padding-left: 0px;
+            &:last-child{
+                padding-bottom:0px;
+            }
+            &:first-child{
+                width: 100%;
+            }
+        }
+    }
+    .service-new-sec {
+        padding: 48px 0;
+        .read-more-btn{
+            font-size: 18px;
+        }
+        .service-main-outer{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .service-col{
+            width: calc(50% - 10px);
+            margin-bottom: 20px;
+            margin-right:0px;
+            padding:0px;
+            z-index: 1;
+            &:nth-child(2n + 2){
+                margin-left:20px;
+            }
+            &:first-child{
+                padding-left: 0px;
+            }
+        }
+    }
+    .solutions-services-sec{
+        padding: 48px 0px;
+        .solution-main-heading{
+            line-height: 1.56;
+            font-size:28px;
+            margin-bottom: 42px;
+        }
+        .solutions-col-sec{
+            width: calc(25% - 25px);
+            margin-left: 30px;
+        }
+        .solutions-col-heading{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .solutions-link{
+            font-size:18px;
+        }
+    }
+    .start-here{
+        padding-bottom: 48px;
+        .startMain-heading{
+            font-size: 28px;
+            line-height: 1.20;
+        }
+        .start-left-txt {
+            font-size: 18px;
+        }
+        .start-col{
+            width: calc(50% - 32px);
+            padding-left: 64px;
+        }
+        .start-heading{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .start-txt-contant{
+            line-height: 1.5;
+        }
+    }
+    .tech-casestudies-sec{
+        .heading{
+            font-size: 28px;
+            line-height: 48px;
+        }
+        .contentTxt {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+    .our-company-sec {
+        .company-icon{
+            max-width: 48px;
+        }
+        .company-Heading{
+            font-size: 20px;
+        }
+        .company-txt{
+            font-size: 18px;
+        }
+        .read-more-btn{
+            font-size: 18px;
+        }
+        .company-col{
+            width: calc(50% - 52px);
+            padding-left: 53px;
+            margin-left: 51px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .header {
+        .navWrapper {
+            .navMenu{
+                width: 100%;
+                left: -150pc;
+                padding-left: 30px;
+            }
+        }
+    }
+    .welcomeWrapper {
+        .welcome-inner{
+            flex-direction: column;
+            height: unset;
+            padding: 100px 0 55px 0;
+            .welcome-inner-left{
+                width: 100%;
+                padding-right: 0px;
+                .welcomeHeading{
+                    font-size: 32px;
+                    line-height: 40px;
+                    margin-bottom: 20px;
+                }
+                .welcomeTxt{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .welcome-inner-right{
+                width:100%;
+                margin-top: 50px;
+            }
+        }
+    }
+    .talkToUsWrapper{
+         .talkToUsInner{
+            flex-direction: column;
+            .talkToUsContent{
+                width: 100%;
+                padding-right: 0px;
+                margin-bottom: 40px;
+                .talkToUsHeading{
+                    font-size: 32px;
+                    margin-bottom: 20px;
+                }
+                .talkToUsList {
+                    li{
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+            .talkToUsForm{
+                width: 100%;
+            }
+         }
+    }
+    .partTeamWrapper{
+        padding: 48px 0;
+        .partTeamHeader {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        .partTeamTxt{
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        .partTeamAction {
+            .infoBtn{
+                font-size: 16px;
+                height: 46px;
+                .icon{
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+    .collaboratingWrapper{
+        padding: 48px 0;
+        .collaboratingHeader{
+            font-size: 28px;
+            line-height: 38px;
+           
+        }
+        .collaboratingTxt{
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 28px;
+        }
+        .locationCollaboratingWrapper {
+            .locationCollaboratingList{
+                width: 100%;
+                margin: 0px;
+                margin-bottom:20px;
+                .locationHeading{
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+    .customerFeedbackWrapper {
+        padding: 48px 0;
+        .customerFeedbackInner {
+            .customerFeedbacMsg{
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+    .buidProductWrapper{
+        padding: 48px 0 48px;
+        .heading{
+            font-size: 28px;
+            line-height: 40px;
+        }
+    }
+    .talkAboutProject{
+        padding: 48px 0px;
+        .talkAboutProjectSec {
+            .talkAboutProjectSchedule {
+                margin-bottom: 70px;
+                .talkHeading{
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+                
+            }
+
+            .locationDetails {
+                .locationAddress{
+                    width: 100%;
+                    margin-bottom: 50px;
+                    &:nth-child(2n + 2){
+                        margin-left: 0px;
+                    }
+                    .locationRightSec {
+                        .locationCountry{
+                            font-size: 28px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerWrapper {
+        .footerTop {
+            .footerTopInner {
+                .footerLinkWrapper {
+                    flex-wrap: wrap;
+                    .footerLinkSec{
+                        width: 100%;
+                        padding-left: 0px;
+                        padding-bottom: 40px;
+                        &:last-child{
+                            padding-bottom:0px;
+                        }
+                        .footerHeading{
+                            font-size: 20px;
+                            line-height: 24px;
+                            margin-bottom: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .footerCopyright{
+            padding: 15px 0;
+            .mainContainer{
+                justify-content: unset;
+                flex-direction: column;
+                .socialLink{
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:490px){
+    .mainContainer{
+        padding:0px 20px;
+    }
+    .welcomeWrapper {
+        .welcome-inner {
+            .welcome-inner-left {
+                .welcomeHeading{
+                    font-size: 28px;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .talkToUsWrapper {
+        .talkToUsInner {
+            .talkToUsContent {
+                .talkToUsHeading{
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                    line-height: 36px;
+                }
+            }
+            .talkToUsForm {
+                .talkToUsFormInner {
+                    .formRow{
+                        flex-wrap: wrap;
+                        .formBox{
+                            width: 100%;
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .partTeamWrapper {
+        .partTeamAction{
+            flex-direction: column;
+            .infoBtn{
+                margin: 0px 0px 10px;
+                &:last-child{
+                    margin:0px 0px 0px;
+                }
+            }
+        }
+    }
+    .talkAboutProject {
+        .talkAboutProjectSec {
+            .talkAboutProjectSchedule{
+                .talkHeading{
+                    font-size: 28px;
+                    line-height: 32px;
+                }
+                
+            }
+            .locationDetails {
+                .locationAddress {
+                    .locationRightSec {
+                        .locationCountry{
+                            font-size: 24px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
