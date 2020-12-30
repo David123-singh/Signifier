@@ -17,4 +17,3 @@ mobile_btn.addEventListener("click", function(){
     menu_sec.classList.toggle("nav-open");
     bg_scroll.classList.toggle("scroll-hide")
 });
-
