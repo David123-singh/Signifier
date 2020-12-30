@@ -938,7 +938,9 @@
             }
         }
     }
-
+    *{
+        overflow-x: hidden;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -1777,5 +1779,24 @@
     }
     .why-us-sec {
         padding: 0px 0px 48px;
+    }
+    .devlopment-row {
+        .devlopment-col{
+            border-left: none;
+            padding-left: 20px;
+            text-align: center;
+            .devlopment-inner{
+                img{
+                    position: relative;
+                    transform: unset;
+                }
+            }
+            &.d-pd-90{
+                padding-left: 20px !important;
+            }
+            &:before{
+                display: none;
+            }
+        }
     }
 }
