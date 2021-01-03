@@ -211,7 +211,11 @@
                 padding:48px 0px;
             }
            
-
+            .service-heading {
+                h2{
+                    width: 100%;
+                }
+            }
             
             
 }
@@ -938,9 +942,13 @@
             }
         }
     }
-    *{
-        overflow-x: hidden;
+    .web-service{
+        display: none;
     }
+    .mobile-service{
+        display: flex;
+    }
+    
 }
 
 @media only screen and (max-width: 767px){
@@ -1370,6 +1378,11 @@
                     padding: 0px;
         }
     }
+    .bussiness-heading{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
 @media only screen and (max-width:490px){
     .mainContainer{
@@ -1799,4 +1812,5 @@
             }
         }
     }
+    
 }

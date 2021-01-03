@@ -13,7 +13,12 @@
   text-align: center;
 }
 
-
+.port-start-sec{
+  min-height: auto;
+}
+.port-start-sec .welcome-inner{
+    height: auto;
+}
 
 .welcomeHeading-new{
     font-size: 32px;
